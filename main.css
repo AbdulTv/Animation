@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: chartreuse;
+    animation-name: box1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    transition: 0.5s ease-in;
+}
+
+@keyframes box1 {
+    0% {
+        background-color: yellow;
+        top: 50px;
+        left: 1090px;
+    }
+    25% {
+        border-radius: 20px;
+        transform: rotate(90deg);
+        background-color: blue;
+        top: 345px;
+        left: 1090px;
+    }
+    50% {
+        border-radius: 20px;
+        transform: rotate(180deg);
+        background-color: chocolate;
+        top: 345px;
+        left: 50px;
+    }
+    75% {
+        border-radius: 20px;
+        transform: rotate(270deg);
+        background-color: crimson;
+        top: 50px;
+        left: 50px;
+    }
+    100% {
+        border-radius: 20px;
+        transform: rotate(360deg);
+        background-color: cornflowerblue;
+        top: 50px;
+        left: 1100px;
+    }
+}
+
+
+
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    animation-name: box2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    transition: 0.5s ease-in;
+}
+
+
+
+@keyframes box2 {
+    0% {
+        background-color: rgb(42, 31, 193);
+        top: 345px;
+        left: 50px;
+    }
+    25% {
+        background-color: rgb(212, 10, 54);
+        top: 50px;
+        left: 50px;
+    }
+    50% {
+        background-color: rgb(48, 231, 16);
+        top: 50px;
+        left: 1090px;
+    }
+    75% {
+        background-color: rgb(242, 106, 22);
+        top: 345px;
+        left: 1090px;
+    }
+    100% {
+        background-color: rgb(229, 12, 218);
+        top: 345px;
+        left: 50px;
+    }
+}
